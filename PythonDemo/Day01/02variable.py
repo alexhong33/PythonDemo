@@ -5,6 +5,7 @@ Created on 2017年5月22日
 
 book 04
 注意输出的拼接句子方式  
+, 相当于 一个空格
 '''
 
 
@@ -23,3 +24,4 @@ print("There will be", cars_not_driven, "empty cars today.")
 print("We can transport", carpool_capacity, "people today.")
 print("We have", passengers, "to carpool today.")
 print("We need to put about", average_passengers_per_car, "in each car.")
+
