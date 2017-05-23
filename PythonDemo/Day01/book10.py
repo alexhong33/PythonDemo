@@ -3,7 +3,7 @@ Created on 2017年5月22日
 
 @author: Alex
 
-转义字符的应用
+转义字符的应用 反斜杠 \
 '''
 
 print("I am 6'2\" tall.") #将字符串中的双引号转义
@@ -27,6 +27,8 @@ print(backslash_cat)
 print(fat_cat)
 
 
+
+#输出\ 反斜杠的时候 要用到转义字符 
 b = 0
 while b < 15:
     for i in ["/","-","|","\\","|"]:
