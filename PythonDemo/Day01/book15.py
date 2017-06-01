@@ -4,6 +4,8 @@ Created on 2017年5月23日
 @author: Alex
 输入 python book15.py book15_sample.txt
 
+总结: 读取文件book15_sample.txt
+
 '''
 
 from sys import argv
