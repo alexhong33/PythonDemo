@@ -1,3 +1,25 @@
+'''
+运行
+$ python oop_test.py english
+
+
+Q: 这句代码result = sentence[:]实现了什么
+
+这是python中用来复制列表的一种方式。你使用了列表的分割切片语法[:]，得到列表从第一个到最后一个元素的切片。
+
+
+class(类)：告诉python去创建一个新类型。object(对象)：有两种意思，事物的基本类型，或者事物的实例化。
+instance(实例)：你通过python创建一个类所获得的。def：用来在类中定义一个函数。self：在一个类包含的函数中，
+self是一个用来访问实例或对象的变量。inheritance：概念，表示一个类可以继承另一个类的特征,
+就像你和你的父母。composition：概念，表示一个类可以包含其他类,就像汽车轮子。 
+attribute：类所拥有的特性，通常是变量。is-a：惯用语，表示一个东西继承自另一个东西(a),
+像在“鲑鱼”是“鱼”。 has-a：惯用语，表示由其他事情或有一个特征(a),如“鲑鱼有嘴。”
+
+
+
+'''
+
+
 import random
 from urllib import request
 import sys
