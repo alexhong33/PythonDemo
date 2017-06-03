@@ -14,4 +14,7 @@ with request.urlopen('https://api.douban.com/v2/book/2129650') as f:
     for k, v in f.getheaders():
         print('%s: %s' %(k, v))
     print('Data:', data.decode('utf-8'))
+    
+    
+
 
