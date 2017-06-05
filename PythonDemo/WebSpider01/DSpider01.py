@@ -10,6 +10,7 @@ import urllib.request
 
 
 def spider(url, page):
+    headers = ("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 SE 2.X MetaSr 1.0")
     print("Start")
     #读取页面的全部源代码
     html1 = urllib.request.urlopen(url).read()
@@ -21,12 +22,17 @@ def spider(url, page):
     #使用正则表达式 第二次 过滤信息 提取图片
     pat2 = '<img width="220" height="220" data-img="1" data-lazy-img="//(.+?\.jpg)">'
     imagelist = re.compile(pat2).findall(result1)
-    print(imagelist)
-  
-'''
+
+
 
     x = 1
-    for imageurl in imagelist(range (0, 10)):
+    for imageurl in imagelist(range(10)):
+        print("-"*10)
+        print(imageurl)
+        print("-"*10)
+        
+        
+'''
         #图片储存位置
         imagename = "F:/SpiderPic" + str(page) + str(x) +".jpg"
         imageurl = "https://" + imageurl
