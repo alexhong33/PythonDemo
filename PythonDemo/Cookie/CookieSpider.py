@@ -11,7 +11,7 @@ from Cookie.NoCookieSpider import postdata
 #爬取链接
 url = "http://bbs.chinaunix.net/member.php?mod=logging&action=login&loginsubmit=yes&loginhash=LDFKE"
 #提交登录账号密码
-postdata = urllib.parse.urlencode({"username":"alexhong33", "password":"Shenzhen2017"}).encode('utf-8')
+postdata = urllib.parse.urlencode({"username":"your_username", "password":"your_password"}).encode('utf-8')
 req = urllib.request.Request(url, postdata)
 req.add_header('User-Agent',  "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) \
     Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2669.400 QQBrowser/9.6.10990.400")

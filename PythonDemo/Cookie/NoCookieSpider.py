@@ -10,7 +10,7 @@ import urllib.request
 import urllib.parse
 
 url = "http://bbs.chinaunix.net/member.php?mod=logging&action=login&loginsubmit=yes&loginhash=LDFKE"
-postdata = urllib.parse.urlencode({"username":"alexhong33", "password":"Shenzhen2017"}).encode('utf-8')
+postdata = urllib.parse.urlencode({"username":"your_username", "password":"your_password"}).encode('utf-8')
 #构建request对象
 req = urllib.request.Request(url, postdata)
 req.add_header('User-Agent',  "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) \
