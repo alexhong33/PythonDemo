@@ -15,7 +15,7 @@ pattern2 = "\w\dpython[^xyz]\w"
 #匹配除字母, 数字和下划线意外的任意一个其他字符
 pattern3 = "\w\dpython[xyz]\W"
 
-string = "abcdfphp345pythony_py"
+string = "abcdfphp345pythonyzx_py"
 result1 = re.search(pattern1, string)
 result2 = re.search(pattern2, string)
 result3 = re.search(pattern3, string)

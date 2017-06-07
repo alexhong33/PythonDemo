@@ -16,6 +16,7 @@ note that this is different from finding a zero-length match at
 import re
 #普通字符作为原子
 pattern = "yue"
+#目标字符串
 string = "http://yum.iqianyue.com"
 result1 = re.search(pattern, string)
 print(result1)

@@ -8,7 +8,7 @@ Created on 2017年6月6日
 
 import re
 pattern = ".python..."
-string = "abcdfphp345pythony_py"
+string = "abcdfphp345 pythony_py"
 result1 = re.search(pattern, string)
 print(result1)
 

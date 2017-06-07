@@ -3,11 +3,12 @@ Created on 2017年6月6日
 
 @author: Alex
 
-使用 ^ 匹配字符串的开始, 使用 $ 匹配字符串的结束
+使用 ^ 从最前端开始匹配字符串, 
+
+使用 $ 从最尾端开始匹配字符串
 '''
 
 import re
-from RegEx.Demo01普通字符作为原子 import pattern
 pattern1 = "^abd"
 pattern2 = "^abc"
 pattern3 = "py$"

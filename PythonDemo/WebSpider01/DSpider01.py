@@ -48,7 +48,7 @@ def spider(url, page):
 
 
 #抓取10个页面   
-for i in range(3, 4):
+for i in range(2, 3):
     print("正在抓取第%d页的图片" % i)
     url = "https://list.jd.com/list.html?cat=9987,653,655&page=" + str(i)
     spider(url, i)
