@@ -16,9 +16,11 @@ def getcontent(url, page):
     
     opener = urllib.request.build_opener()
     opener.addheaders = [headers]
-    
     #将opener安装为全局
     urllib.request.install_opener(opener)
+    
+    
+    
     data = urllib.request.urlopen(url).read().decode("utf-8")
     #构建对应用户提取的正则表达式
     userpat ='target="_blank" title="(.*?)">'
