@@ -9,5 +9,8 @@
 * [Eclipse控制台使用CMD命令行配置](http://blog.csdn.net/xyb890826/article/details/41965935)
 
 
-#Python爬虫
+# Python爬虫
 * [爬虫入门指南](http://cuiqingcai.com/1052.html)
+ 
+# Python面试
+*  [面试指南](http://dongwm.com/archives/liao-liao-pythonmian-shi-zhe-jian-shi-er/)
