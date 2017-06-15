@@ -13,4 +13,4 @@
 * [爬虫入门指南](http://cuiqingcai.com/1052.html)  
 
 # Python面试
-*  [面试指南](http://dongwm.com/archives/liao-liao-pythonmian-shi-zhe-jian-shi-er/)
+* [面试指南](http://dongwm.com/archives/liao-liao-pythonmian-shi-zhe-jian-shi-er/)
